@@ -31,11 +31,7 @@ class Fragment3 : Fragment(),View.OnClickListener {
         return view
     }
 
-    companion object {
-        fun newInstance(): Fragment3 {
-            return Fragment3()
-        }
-    }
+
 
     override fun onClick(v: View?) {
         when (v?.id) {

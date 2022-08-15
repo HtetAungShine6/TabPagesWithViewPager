@@ -1,17 +1,11 @@
 package com.example.mosquito.android
 
-import android.annotation.SuppressLint
 import android.os.Bundle
-import android.text.Editable
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
-import com.example.mosquito.android.PageAdapter.Companion.resultText
+import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_1.*
 
 
@@ -32,12 +26,6 @@ class Fragment1 : Fragment(),View.OnClickListener{
         return view
     }
 
-    companion object {
-        const val KEY_FRAGMENT1 = "KEY_FRAG1"
-        fun newInstance(): Fragment1 {
-            return Fragment1()
-        }
-    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
